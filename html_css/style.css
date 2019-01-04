@@ -1,0 +1,98 @@
+* {
+    font-size: 16px;
+  }
+body{
+  /* background-color: #fccc8c;
+  background-image: url('https://images.wallpaperscraft.ru/image/para_zvezdnoe_nebo_art_123338_3000x3000.jpg'); */
+  background: url('https://images.wallpaperscraft.ru/image/para_zvezdnoe_nebo_art_123338_3000x3000.jpg')
+  no-repeat #fccc8c center top;
+}
+h1{
+  color:red
+}
+p{
+  font: Tahoma;
+  color: green;
+}
+#hello{
+  color: #0afa1a;
+}
+.style_class{
+  color: orange;
+}
+h6.style_class{
+  color: red;
+  background-color:#00ff16;
+}
+h6 i {
+  color: green
+}
+.example, b{
+  color: blue;
+  font-size: 20px;
+  background-color: #fcff8c;
+}
+#myfirst::first-letter{
+  color: red;
+  font-size: 30px;
+}
+#first_line::first-line{
+  color: red;
+}
+.href{
+  color: blue;
+  text-decoration: none;
+}
+.href:hover{
+  color: red;
+  text-decoration: none;
+}
+.href:active{
+  color: orange;
+  text-decoration: none;
+}
+.href:visited{
+  color: yellow;
+  text-decoration: none;
+}
+#myfont{
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ff00ff;
+  text-align: center;
+  font-family: monospace;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('Montserrat-Regular.ttf'); /*URL to font*/
+}
+#time_font{
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: Montserrat-Regular;
+}
+#otstup{
+  color: white;
+  font-size: 1.6em;
+  /* абзац */
+  text-indent: 1.5em;
+  text-transform: full-width;
+  /* отступ между тестами */
+  word-spacing: 1.1em;
+  /* отступ между строками */
+  line-height: 120%;
+  text-align: justify;
+}
+#test_block{
+  color: white;
+  /* border: 2px dashed silver; */
+  border: 2px double silver;
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+  width: 350px;
+  border-radius: 20px;
+}
